@@ -21,5 +21,6 @@ function exibeChuteNaTela(chute){
     <span class="box">${chute}</span>
     `
 }
+//para o reconhecimento de voz permancer funcionando enquanto não acerta.
 recognition.addEventListener('end', () => {
     recognition.start()})

@@ -13,7 +13,7 @@ function verificaSeOChutePossuiUmValorValido(chute){
             `        
         }
         return
-        //com o retorn, essa funcção não será mais chamada.
+        //com o retorn, essa função não será mais chamada.
     }
     if(numeroMaiorOuMenorQueOValorPermitido(numero)){
         elementoChute.innerHTML += `
